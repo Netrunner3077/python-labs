@@ -1,0 +1,22 @@
+[project]
+name = "python-labs"
+version = "1.0.0"
+description = "Лабораторные работы по Python (вариант 14)"
+requires-python = ">=3.10"
+authors = [{ name = "Токарев В.С." }]
+
+[tool.pytest.ini_options]
+testpaths = ["lab_01_linear_function/tests",
+             "lab_02_branching/tests",
+             "lab_03_loops/tests",
+             "lab_04_arrays/tests"]
+python_files = "test_*.py"
+addopts = "-v --tb=short"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.mypy]
+python_version = "3.10"
+strict = true
