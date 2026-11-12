@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="561" viewBox="0 0 700 561">
+<defs><marker id="arrow" markerWidth="9" markerHeight="8" refX="8" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#26384b"/></marker></defs>
+<rect width="700" height="561" fill="white"/>
+<polyline points="295.0,57.0 295.0,83.0" stroke="#26384b" stroke-width="1.65" fill="none" marker-end="url(#arrow)"/>
+<polyline points="295.0,137.0 295.0,157.5" stroke="#26384b" stroke-width="1.65" fill="none" marker-end="url(#arrow)"/>
+<polyline points="295.0,206.5 295.0,229.5" stroke="#26384b" stroke-width="1.65" fill="none" marker-end="url(#arrow)"/>
+<polyline points="404.0,266.0 451.5,266.0" stroke="#26384b" stroke-width="1.65" fill="none" marker-end="url(#arrow)"/>
+<polyline points="295.0,302.5 295.0,335.0" stroke="#26384b" stroke-width="1.65" fill="none" marker-end="url(#arrow)"/>
+<polyline points="295.0,395.0 295.0,424.5" stroke="#26384b" stroke-width="1.65" fill="none" marker-end="url(#arrow)"/>
+<polyline points="295.0,473.5 295.0,503.0" stroke="#26384b" stroke-width="1.65" fill="none" marker-end="url(#arrow)"/>
+<polyline points="552.0,289.5 552,520 363.0,520.0" stroke="#26384b" stroke-width="1.65" fill="none" marker-end="url(#arrow)"/>
+<rect x="227.0" y="23.0" width="136" height="34" rx="17.0" fill="#e7eff5" stroke="#26384b" stroke-width="1.5"/>
+<text x="295.0" y="40.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">Начало</text>
+<polygon points="162.5,83.0 442.5,83.0 427.5,137.0 147.5,137.0" fill="#f3f7fa" stroke="#26384b" stroke-width="1.5"/>
+<text x="295.0" y="110.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">Ввод x и y с клавиатуры</text>
+<rect x="147.5" y="157.5" width="295" height="49" rx="2" fill="#ffffff" stroke="#26384b" stroke-width="1.5"/>
+<text x="295.0" y="182.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">D = x · (x − y) · (2x + y)</text>
+<polygon points="295.0,229.5 404.0,266.0 295.0,302.5 186.0,266.0" fill="#f0f4f8" stroke="#26384b" stroke-width="1.5"/>
+<text x="295.0" y="266.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">D = 0?</text>
+<polygon points="459.0,242.5 660.0,242.5 645.0,289.5 444.0,289.5" fill="#f3f7fa" stroke="#26384b" stroke-width="1.5"/>
+<text x="552.0" y="266.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">Сообщение об ошибке</text>
+<rect x="147.5" y="335.0" width="295" height="60" rx="2" fill="#ffffff" stroke="#26384b" stroke-width="1.5"/>
+<text x="295.0" y="355.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">N = x · exp(xy) + 4 · cos² x</text>
+<text x="295.0" y="375.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">u = N / D</text>
+<polygon points="150.0,424.5 455.0,424.5 440.0,473.5 135.0,473.5" fill="#f3f7fa" stroke="#26384b" stroke-width="1.5"/>
+<text x="295.0" y="449.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">Вывод u (4 знаков после точки)</text>
+<rect x="227.0" y="503.0" width="136" height="34" rx="17.0" fill="#e7eff5" stroke="#26384b" stroke-width="1.5"/>
+<text x="295.0" y="520.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">Конец</text>
+<text x="424" y="253" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="15" font-weight="bold" fill="#26384b" stroke="white" stroke-width="4" paint-order="stroke">Да</text>
+<text x="318" y="315" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="15" font-weight="bold" fill="#26384b" stroke="white" stroke-width="4" paint-order="stroke">Нет</text>
+</svg>
