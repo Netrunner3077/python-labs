@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="739" viewBox="0 0 700 739">
+<defs><marker id="arrow" markerWidth="9" markerHeight="8" refX="8" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#26384b"/></marker></defs>
+<rect width="700" height="739" fill="white"/>
+<polyline points="310.0,57.0 310.0,82.5" stroke="#26384b" stroke-width="1.65" fill="none" marker-end="url(#arrow)"/>
+<polyline points="310.0,137.5 310.0,161.0" stroke="#26384b" stroke-width="1.65" fill="none" marker-end="url(#arrow)"/>
+<polyline points="435.0,202.0 466.5,202.0" stroke="#26384b" stroke-width="1.65" fill="none" marker-end="url(#arrow)"/>
+<polyline points="310.0,243.0 310.0,265.0" stroke="#26384b" stroke-width="1.65" fill="none" marker-end="url(#arrow)"/>
+<polyline points="310.0,323.0 310.0,349.0" stroke="#26384b" stroke-width="1.65" fill="none" marker-end="url(#arrow)"/>
+<polyline points="310.0,403.0 310.0,426.5" stroke="#26384b" stroke-width="1.65" fill="none" marker-end="url(#arrow)"/>
+<polyline points="310.0,483.5 310.0,508.0" stroke="#26384b" stroke-width="1.65" fill="none" marker-end="url(#arrow)"/>
+<polyline points="310.0,568.0 310.0,593.0" stroke="#26384b" stroke-width="1.65" fill="none" marker-end="url(#arrow)"/>
+<polyline points="310.0,653.0 310.0,681.0" stroke="#26384b" stroke-width="1.65" fill="none" marker-end="url(#arrow)"/>
+<rect x="242.0" y="23.0" width="136" height="34" rx="17.0" fill="#e7eff5" stroke="#26384b" stroke-width="1.5"/>
+<text x="310.0" y="40.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">Начало</text>
+<polygon points="155.0,82.5 480.0,82.5 465.0,137.5 140.0,137.5" fill="#f3f7fa" stroke="#26384b" stroke-width="1.5"/>
+<text x="310.0" y="100.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">Ввод k, z₁, z₂, n, m</text>
+<text x="310.0" y="120.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">Подстановка значений по умолчанию</text>
+<polygon points="310.0,161.0 435.0,202.0 310.0,243.0 185.0,202.0" fill="#f0f4f8" stroke="#26384b" stroke-width="1.5"/>
+<text x="310.0" y="192.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">k = n · m</text>
+<text x="310.0" y="212.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">и z₁ &lt; z₂?</text>
+<polygon points="474.0,179.0 681.0,179.0 666.0,225.0 459.0,225.0" fill="#f3f7fa" stroke="#26384b" stroke-width="1.5"/>
+<text x="570.0" y="202.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">Завершение с ValueError</text>
+<rect x="155.0" y="265.0" width="310" height="58" rx="2" fill="#ffffff" stroke="#26384b" stroke-width="1.5"/>
+<text x="310.0" y="284.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">Сгенерировать k случайных</text>
+<text x="310.0" y="304.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">целых чисел из [z₁; z₂]</text>
+<rect x="155.0" y="349.0" width="310" height="54" rx="2" fill="#ffffff" stroke="#26384b" stroke-width="1.5"/>
+<text x="310.0" y="366.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">Сформировать n строк</text>
+<text x="310.0" y="386.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">по m элементов</text>
+<rect x="155.0" y="426.5" width="310" height="57" rx="2" fill="#ffffff" stroke="#26384b" stroke-width="1.5"/>
+<text x="310.0" y="445.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">Собрать пары (i, B[i])</text>
+<text x="310.0" y="465.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">для элементов B[i] &gt; 0</text>
+<polygon points="158.5,508.0 476.5,508.0 461.5,568.0 143.5,568.0" fill="#f3f7fa" stroke="#26384b" stroke-width="1.5"/>
+<text x="310.0" y="528.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">Вывести матрицу, номера i + 1,</text>
+<text x="310.0" y="548.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">значения и итог поиска</text>
+<polygon points="158.5,593.0 476.5,593.0 461.5,653.0 143.5,653.0" fill="#f3f7fa" stroke="#26384b" stroke-width="1.5"/>
+<text x="310.0" y="613.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">Записать матрицу и итог поиска</text>
+<text x="310.0" y="633.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">в result_lab_4_v14.txt</text>
+<rect x="242.0" y="681.0" width="136" height="34" rx="17.0" fill="#e7eff5" stroke="#26384b" stroke-width="1.5"/>
+<text x="310.0" y="698.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">Конец</text>
+<text x="442" y="189" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="15" font-weight="bold" fill="#26384b" stroke="white" stroke-width="4" paint-order="stroke">Нет</text>
+<text x="331" y="255" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="15" font-weight="bold" fill="#26384b" stroke="white" stroke-width="4" paint-order="stroke">Да</text>
+</svg>
