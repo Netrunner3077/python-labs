@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="704" viewBox="0 0 700 704">
+<defs><marker id="arrow" markerWidth="9" markerHeight="8" refX="8" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#26384b"/></marker></defs>
+<rect width="700" height="704" fill="white"/>
+<polyline points="245.0,57.0 245.0,79.5" stroke="#26384b" stroke-width="1.65" fill="none" marker-end="url(#arrow)"/>
+<polyline points="245.0,134.5 245.0,153.5" stroke="#26384b" stroke-width="1.65" fill="none" marker-end="url(#arrow)"/>
+<polyline points="355.0,195.0 393.0,195.0" stroke="#26384b" stroke-width="1.65" fill="none" marker-end="url(#arrow)"/>
+<polyline points="245.0,236.5 245.0,278.5" stroke="#26384b" stroke-width="1.65" fill="none" marker-end="url(#arrow)"/>
+<polyline points="355.0,320.0 393.0,320.0" stroke="#26384b" stroke-width="1.65" fill="none" marker-end="url(#arrow)"/>
+<polyline points="245.0,361.5 245.0,395.5" stroke="#26384b" stroke-width="1.65" fill="none" marker-end="url(#arrow)"/>
+<polyline points="245.0,442.5 245.0,478.5" stroke="#26384b" stroke-width="1.65" fill="none" marker-end="url(#arrow)"/>
+<polyline points="245.0,533.5 245.0,564.5" stroke="#26384b" stroke-width="1.65" fill="none" marker-end="url(#arrow)"/>
+<polyline points="245.0,619.5 245.0,646.0" stroke="#26384b" stroke-width="1.65" fill="none" marker-end="url(#arrow)"/>
+<polyline points="647.0,195.0 674,195 674,506 404.5,506.0" stroke="#26384b" stroke-width="1.65" fill="none" marker-end="url(#arrow)"/>
+<polyline points="520.0,344.0 520,478 461,478 461,506 404.5,506.0" stroke="#26384b" stroke-width="1.65" fill="none" marker-end="url(#arrow)"/>
+<rect x="177.0" y="23.0" width="136" height="34" rx="17.0" fill="#e7eff5" stroke="#26384b" stroke-width="1.5"/>
+<text x="245.0" y="40.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">Начало</text>
+<polygon points="110.0,79.5 395.0,79.5 380.0,134.5 95.0,134.5" fill="#f3f7fa" stroke="#26384b" stroke-width="1.5"/>
+<text x="245.0" y="107.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">Ввод x, y, a, c, d</text>
+<polygon points="245.0,153.5 355.0,195.0 245.0,236.5 135.0,195.0" fill="#f0f4f8" stroke="#26384b" stroke-width="1.5"/>
+<text x="245.0" y="185.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">0 &lt; x &lt; 1 и</text>
+<text x="245.0" y="205.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">0 &lt; y &lt; 1?</text>
+<rect x="393.0" y="165.0" width="254" height="60" rx="2" fill="#ffffff" stroke="#26384b" stroke-width="1.5"/>
+<text x="520.0" y="185.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">b = 2 ln(x) · max(min(x, y),</text>
+<text x="520.0" y="205.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">sin(c·x), cos(d))</text>
+<polygon points="245.0,278.5 355.0,320.0 245.0,361.5 135.0,320.0" fill="#f0f4f8" stroke="#26384b" stroke-width="1.5"/>
+<text x="245.0" y="320.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">x &lt; 0 и y &lt; 0?</text>
+<rect x="393.0" y="296.0" width="254" height="48" rx="2" fill="#ffffff" stroke="#26384b" stroke-width="1.5"/>
+<text x="520.0" y="320.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">b = min(exp(x + 1), y)</text>
+<rect x="145.0" y="395.5" width="200" height="47" rx="2" fill="#ffffff" stroke="#26384b" stroke-width="1.5"/>
+<text x="245.0" y="419.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">b = a + x</text>
+<polygon points="93.0,478.5 412.0,478.5 397.0,533.5 78.0,533.5" fill="#f3f7fa" stroke="#26384b" stroke-width="1.5"/>
+<text x="245.0" y="506.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">Вывод исходных данных и b</text>
+<polygon points="110.0,564.5 395.0,564.5 380.0,619.5 95.0,619.5" fill="#f3f7fa" stroke="#26384b" stroke-width="1.5"/>
+<text x="245.0" y="582.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">Запись исходных данных и b</text>
+<text x="245.0" y="602.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">в result.txt</text>
+<rect x="177.0" y="646.0" width="136" height="34" rx="17.0" fill="#e7eff5" stroke="#26384b" stroke-width="1.5"/>
+<text x="245.0" y="663.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">Конец</text>
+<text x="373" y="181" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="15" font-weight="bold" fill="#26384b" stroke="white" stroke-width="4" paint-order="stroke">Да</text>
+<text x="285" y="255" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="15" font-weight="bold" fill="#26384b" stroke="white" stroke-width="4" paint-order="stroke">Нет</text>
+<text x="373" y="306" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="15" font-weight="bold" fill="#26384b" stroke="white" stroke-width="4" paint-order="stroke">Да</text>
+<text x="285" y="374" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="15" font-weight="bold" fill="#26384b" stroke="white" stroke-width="4" paint-order="stroke">Нет</text>
+</svg>
