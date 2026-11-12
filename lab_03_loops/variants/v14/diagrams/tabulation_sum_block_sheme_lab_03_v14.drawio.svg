@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="759" viewBox="0 0 700 759">
+<defs><marker id="arrow" markerWidth="9" markerHeight="8" refX="8" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0,0 L8,4 L0,8 Z" fill="#26384b"/></marker></defs>
+<rect width="700" height="759" fill="white"/>
+<polyline points="275.0,589.0 275.0,612.5" stroke="#26384b" stroke-width="1.65" fill="none" marker-end="url(#arrow)"/>
+<polyline points="362.5,642.0 430.0,642.0" stroke="#26384b" stroke-width="1.65" fill="none" marker-end="url(#arrow)"/>
+<polyline points="275.0,671.5 275.0,696.5" stroke="#26384b" stroke-width="1.65" fill="none" marker-end="url(#arrow)"/>
+<polyline points="499.0,663.0 499,716 351.0,716.0" stroke="#26384b" stroke-width="1.65" fill="none" marker-end="url(#arrow)"/>
+<polyline points="275.0,50.0 275.0,72.0" stroke="#26384b" stroke-width="1.65" fill="none" marker-end="url(#arrow)"/>
+<polyline points="275.0,124.0 275.0,144.0" stroke="#26384b" stroke-width="1.65" fill="none" marker-end="url(#arrow)"/>
+<polyline points="275.0,214.0 275.0,234.5" stroke="#26384b" stroke-width="1.65" fill="none" marker-end="url(#arrow)"/>
+<polyline points="390.0,179.0 447.0,179.0" stroke="#26384b" stroke-width="1.65" fill="none" marker-end="url(#arrow)"/>
+<polyline points="275.0,291.5 275.0,315.5" stroke="#26384b" stroke-width="1.65" fill="none" marker-end="url(#arrow)"/>
+<polyline points="362.5,347.0 431.5,347.0" stroke="#26384b" stroke-width="1.65" fill="none" marker-end="url(#arrow)"/>
+<polyline points="275.0,378.5 275.0,399.5" stroke="#26384b" stroke-width="1.65" fill="none" marker-end="url(#arrow)"/>
+<polyline points="275.0,440.5 275.0,454.0" stroke="#26384b" stroke-width="1.65" fill="none" marker-end="url(#arrow)"/>
+<polyline points="275.0,526.0 275.0,541.0" stroke="#26384b" stroke-width="1.65" fill="none" marker-end="url(#arrow)"/>
+<polyline points="199.0,716.0 55,716 55,347 187.5,347.0" stroke="#26384b" stroke-width="1.65" fill="none" marker-end="url(#arrow)"/>
+<polyline points="550.0,371.0 550.0,429.0" stroke="#26384b" stroke-width="1.65" fill="none" marker-end="url(#arrow)"/>
+<rect x="209.0" y="18.0" width="132" height="32" rx="16.0" fill="#e7eff5" stroke="#26384b" stroke-width="1.5"/>
+<text x="275.0" y="34.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">Начало</text>
+<polygon points="160.0,72.0 405.0,72.0 390.0,124.0 145.0,124.0" fill="#f3f7fa" stroke="#26384b" stroke-width="1.5"/>
+<text x="275.0" y="98.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">Ввод a, b, h</text>
+<polygon points="275.0,144.0 390.0,179.0 275.0,214.0 160.0,179.0" fill="#f0f4f8" stroke="#26384b" stroke-width="1.5"/>
+<text x="275.0" y="179.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">h &gt; 0 и b ≥ a?</text>
+<polygon points="454.5,155.5 662.5,155.5 647.5,202.5 439.5,202.5" fill="#f3f7fa" stroke="#26384b" stroke-width="1.5"/>
+<text x="551.0" y="179.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">Завершение с ошибкой</text>
+<rect x="137.0" y="234.5" width="276" height="57" rx="2" fill="#ffffff" stroke="#26384b" stroke-width="1.5"/>
+<text x="275.0" y="253.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">N = round((b − a) / h) + 1</text>
+<text x="275.0" y="273.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">i = 0, S = 0</text>
+<polygon points="275.0,315.5 362.5,347.0 275.0,378.5 187.5,347.0" fill="#f0f4f8" stroke="#26384b" stroke-width="1.5"/>
+<text x="275.0" y="347.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">i &lt; N?</text>
+<rect x="175.0" y="399.5" width="200" height="41" rx="2" fill="#ffffff" stroke="#26384b" stroke-width="1.5"/>
+<text x="275.0" y="420.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">x = a + i · h</text>
+<rect x="125.0" y="454.0" width="300" height="72" rx="2" fill="#ffffff" stroke="#26384b" stroke-width="1.5"/>
+<text x="275.0" y="470.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">x² − 1 при x &lt; 0</text>
+<text x="275.0" y="490.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">cos(x) при 0 ≤ x &lt; 1.5</text>
+<text x="275.0" y="510.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">sin(x − 1) при x ≥ 1.5</text>
+<polygon points="130.0,541.0 435.0,541.0 420.0,589.0 115.0,589.0" fill="#f3f7fa" stroke="#26384b" stroke-width="1.5"/>
+<text x="275.0" y="565.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">Вывести и записать строку (x, y)</text>
+<polygon points="275.0,612.5 362.5,642.0 275.0,671.5 187.5,642.0" fill="#f0f4f8" stroke="#26384b" stroke-width="1.5"/>
+<text x="275.0" y="642.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">y &gt; 0?</text>
+<rect x="430.0" y="621.0" width="138" height="42" rx="2" fill="#ffffff" stroke="#26384b" stroke-width="1.5"/>
+<text x="499.0" y="642.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">S = S + y</text>
+<rect x="199.0" y="696.5" width="152" height="39" rx="2" fill="#ffffff" stroke="#26384b" stroke-width="1.5"/>
+<text x="275.0" y="716.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">i = i + 1</text>
+<polygon points="439.0,323.0 676.0,323.0 661.0,371.0 424.0,371.0" fill="#f3f7fa" stroke="#26384b" stroke-width="1.5"/>
+<text x="550.0" y="347.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">Вывести и записать S</text>
+<rect x="484.0" y="429.0" width="132" height="32" rx="16.0" fill="#e7eff5" stroke="#26384b" stroke-width="1.5"/>
+<text x="550.0" y="445.0" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="17" fill="#26384b">Конец</text>
+<text x="394" y="628" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="15" font-weight="bold" fill="#26384b" stroke="white" stroke-width="4" paint-order="stroke">Да</text>
+<text x="299" y="682" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="15" font-weight="bold" fill="#26384b" stroke="white" stroke-width="4" paint-order="stroke">Нет</text>
+<text x="296" y="222" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="15" font-weight="bold" fill="#26384b" stroke="white" stroke-width="4" paint-order="stroke">Да</text>
+<text x="425" y="164" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="15" font-weight="bold" fill="#26384b" stroke="white" stroke-width="4" paint-order="stroke">Нет</text>
+<text x="392" y="333" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="15" font-weight="bold" fill="#26384b" stroke="white" stroke-width="4" paint-order="stroke">Нет</text>
+<text x="297" y="384" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="15" font-weight="bold" fill="#26384b" stroke="white" stroke-width="4" paint-order="stroke">Да</text>
+</svg>
