@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Алгоритм">
+    <mxGraphModel grid="1" gridSize="10" page="1" pageWidth="700" pageHeight="599">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="start" parent="1" vertex="1" value="Начало" style="rounded=1;arcSize=50;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=17;strokeWidth=1.5;strokeColor=#26384b;fillColor=#e7eff5;fontColor=#26384b;">
+          <mxGeometry x="153.0" y="20.0" width="134" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="load" parent="1" vertex="1" value="Задать x = 6, b = 0.5, c = 2" style="shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;size=16;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=17;strokeWidth=1.5;strokeColor=#26384b;fillColor=#f3f7fa;fontColor=#26384b;">
+          <mxGeometry x="70.0" y="86.5" width="300" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="first" parent="1" vertex="1" value="c &gt; 0 и x &gt; 2?" style="rhombus;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=17;strokeWidth=1.5;strokeColor=#26384b;fillColor=#f0f4f8;fontColor=#26384b;">
+          <mxGeometry x="117.5" y="155.5" width="205" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="z1" parent="1" vertex="1" value="Z = max(c, x / c, sin(c))" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=17;strokeWidth=1.5;strokeColor=#26384b;fillColor=#ffffff;fontColor=#26384b;">
+          <mxGeometry x="360.0" y="168.0" width="280" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="second" parent="1" vertex="1" value="c &lt; 0 и x &gt; 2?" style="rhombus;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=17;strokeWidth=1.5;strokeColor=#26384b;fillColor=#f0f4f8;fontColor=#26384b;">
+          <mxGeometry x="117.5" y="258.5" width="205" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="z2" parent="1" vertex="1" value="Z = min(c, c · x + sin(b),&#10;max(c, b))" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=17;strokeWidth=1.5;strokeColor=#26384b;fillColor=#ffffff;fontColor=#26384b;">
+          <mxGeometry x="360.0" y="265.5" width="280" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="z3" parent="1" vertex="1" value="Z = max(c, b)" style="rounded=0;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=17;strokeWidth=1.5;strokeColor=#26384b;fillColor=#ffffff;fontColor=#26384b;">
+          <mxGeometry x="122.5" y="365.0" width="195" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="result" parent="1" vertex="1" value="Вывести x, b, c и Z" style="shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;size=16;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=17;strokeWidth=1.5;strokeColor=#26384b;fillColor=#f3f7fa;fontColor=#26384b;">
+          <mxGeometry x="65.0" y="448.0" width="310" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="end" parent="1" vertex="1" value="Конец" style="rounded=1;arcSize=50;whiteSpace=wrap;html=0;fontFamily=Arial;fontSize=17;strokeWidth=1.5;strokeColor=#26384b;fillColor=#e7eff5;fontColor=#26384b;">
+          <mxGeometry x="153.0" y="539.0" width="134" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="edge1" parent="1" source="start" target="load" edge="1" style="html=0;endArrow=block;endFill=1;strokeColor=#26384b;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge2" parent="1" source="load" target="first" edge="1" style="html=0;endArrow=block;endFill=1;strokeColor=#26384b;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge3" parent="1" source="first" target="z1" edge="1" style="html=0;endArrow=block;endFill=1;strokeColor=#26384b;strokeWidth=1.5;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="label3" parent="1" vertex="1" value="Да" style="text;align=center;verticalAlign=middle;html=0;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#26384b;">
+          <mxGeometry x="322" y="169" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="edge4" parent="1" source="first" target="second" edge="1" style="html=0;endArrow=block;endFill=1;strokeColor=#26384b;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="label4" parent="1" vertex="1" value="Нет" style="text;align=center;verticalAlign=middle;html=0;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#26384b;">
+          <mxGeometry x="222" y="233" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="edge5" parent="1" source="second" target="z2" edge="1" style="html=0;endArrow=block;endFill=1;strokeColor=#26384b;strokeWidth=1.5;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="label5" parent="1" vertex="1" value="Да" style="text;align=center;verticalAlign=middle;html=0;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#26384b;">
+          <mxGeometry x="322" y="272" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="edge6" parent="1" source="second" target="z3" edge="1" style="html=0;endArrow=block;endFill=1;strokeColor=#26384b;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="label6" parent="1" vertex="1" value="Нет" style="text;align=center;verticalAlign=middle;html=0;fontFamily=Arial;fontSize=15;fontStyle=1;fontColor=#26384b;">
+          <mxGeometry x="222" y="335" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="edge7" parent="1" source="z3" target="result" edge="1" style="html=0;endArrow=block;endFill=1;strokeColor=#26384b;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge8" parent="1" source="result" target="end" edge="1" style="html=0;endArrow=block;endFill=1;strokeColor=#26384b;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge9" parent="1" source="z1" target="result" edge="1" style="html=0;endArrow=block;endFill=1;strokeColor=#26384b;strokeWidth=1.5;exitX=1;exitY=0.5;entryX=1;entryY=0.5;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="673" y="192" />
+              <mxPoint x="673" y="476" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge10" parent="1" source="z2" target="result" edge="1" style="html=0;endArrow=block;endFill=1;strokeColor=#26384b;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=1;entryY=0.5;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="451" />
+              <mxPoint x="435" y="451" />
+              <mxPoint x="435" y="476" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
