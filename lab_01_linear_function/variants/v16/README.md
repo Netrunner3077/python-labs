@@ -22,9 +22,9 @@
 
 | Уровень | Ввод и вывод | Файлы |
 | --- | --- | --- |
-| `noob` | Константы или фиксированный список заданы в коде. Результат выводится в консоль. | [Код](<src/linear_lab_01_v16_(noob).py>) · [Отчёт DOCX](<docs/reports/lab_01_v16_noob_report.docx>) · [Блок-схема](<diagrams/lab_01_v16_noob.drawio>) · [Изображение](<diagrams/lab_01_v16_noob.png>) |
-| `basic` | Читает x и y из `input.txt`, записывает результат и целую часть в `result.txt`. | [Код](<src/linear_lab_01_v16_(basic).py>) · [Отчёт DOCX](<docs/reports/lab_01_v16_basic_report.docx>) · [Блок-схема](<diagrams/lab_01_v16_basic.drawio>) · [Изображение](<diagrams/lab_01_v16_basic.png>) |
-| `advanced` | Поддерживает `--input` и `--output`. По умолчанию читает `input.txt`, сохраняет `result.txt`. | [Код](<src/linear_lab_01_v16_(advanced).py>) · [Отчёт DOCX](<docs/reports/lab_01_v16_advanced_report.docx>) · [Блок-схема](<diagrams/lab_01_v16_advanced.drawio>) · [Изображение](<diagrams/lab_01_v16_advanced.png>) |
+| `noob` | Константы или фиксированный список заданы в коде. Результат выводится в консоль. | [Код](<src/linear_lab_01_v16_(noob).py>) · [Отчёт DOCX](<docs/reports/lab_01_v16_noob_report.docx>) · [Блок-схема](<diagrams/lab_01_v16_noob.drawio>) · [Изображение](<diagrams/lab_01_v16_noob.svg>) |
+| `basic` | Читает x и y из `input.txt`, записывает результат и целую часть в `result.txt`. | [Код](<src/linear_lab_01_v16_(basic).py>) · [Отчёт DOCX](<docs/reports/lab_01_v16_basic_report.docx>) · [Блок-схема](<diagrams/lab_01_v16_basic.drawio>) · [Изображение](<diagrams/lab_01_v16_basic.svg>) |
+| `advanced` | Поддерживает `--input` и `--output`. По умолчанию читает `input.txt`, сохраняет `result.txt`. | [Код](<src/linear_lab_01_v16_(advanced).py>) · [Отчёт DOCX](<docs/reports/lab_01_v16_advanced_report.docx>) · [Блок-схема](<diagrams/lab_01_v16_advanced.drawio>) · [Изображение](<diagrams/lab_01_v16_advanced.svg>) |
 
 ## Подготовка окружения
 
@@ -57,7 +57,7 @@ python "src/linear_lab_01_v16_(advanced).py"
 
 ## Пример блок-схемы
 
-![Начальное решение варианта №16](<diagrams/lab_01_v16_noob.png>)
+![Начальное решение варианта №16](<diagrams/lab_01_v16_noob.svg>)
 
 ## Контрольные примеры
 

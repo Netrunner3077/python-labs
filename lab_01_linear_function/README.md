@@ -47,7 +47,7 @@ python -m pytest "lab_01_linear_function/variants"
 
 ## Пример блок-схемы
 
-![Начальное решение варианта №1](variants/v01/diagrams/lab_01_v01_noob.png)
+![Начальное решение варианта №1](variants/v01/diagrams/lab_01_v01_noob.svg)
 
 ## Контроль и особенности
 

@@ -24,9 +24,9 @@ x * (x - y) * (4 * x + y) / (2.7 * (x - pi)) + cbrt(0.2 * x / sin(y))
 
 | Уровень | Ввод и вывод | Файлы |
 | --- | --- | --- |
-| `noob` | Константы или фиксированный список заданы в коде. Результат выводится в консоль. | [Код](<src/linear_lab_01_v25_(noob).py>) · [Отчёт DOCX](<docs/reports/lab_01_v25_noob_report.docx>) · [Блок-схема](<diagrams/lab_01_v25_noob.drawio>) · [Изображение](<diagrams/lab_01_v25_noob.png>) |
-| `basic` | Читает x и y из `input.txt`, записывает результат и целую часть в `result.txt`. | [Код](<src/linear_lab_01_v25_(basic).py>) · [Отчёт DOCX](<docs/reports/lab_01_v25_basic_report.docx>) · [Блок-схема](<diagrams/lab_01_v25_basic.drawio>) · [Изображение](<diagrams/lab_01_v25_basic.png>) |
-| `advanced` | Поддерживает `--input` и `--output`. По умолчанию читает `input.txt`, сохраняет `result.txt`. | [Код](<src/linear_lab_01_v25_(advanced).py>) · [Отчёт DOCX](<docs/reports/lab_01_v25_advanced_report.docx>) · [Блок-схема](<diagrams/lab_01_v25_advanced.drawio>) · [Изображение](<diagrams/lab_01_v25_advanced.png>) |
+| `noob` | Константы или фиксированный список заданы в коде. Результат выводится в консоль. | [Код](<src/linear_lab_01_v25_(noob).py>) · [Отчёт DOCX](<docs/reports/lab_01_v25_noob_report.docx>) · [Блок-схема](<diagrams/lab_01_v25_noob.drawio>) · [Изображение](<diagrams/lab_01_v25_noob.svg>) |
+| `basic` | Читает x и y из `input.txt`, записывает результат и целую часть в `result.txt`. | [Код](<src/linear_lab_01_v25_(basic).py>) · [Отчёт DOCX](<docs/reports/lab_01_v25_basic_report.docx>) · [Блок-схема](<diagrams/lab_01_v25_basic.drawio>) · [Изображение](<diagrams/lab_01_v25_basic.svg>) |
+| `advanced` | Поддерживает `--input` и `--output`. По умолчанию читает `input.txt`, сохраняет `result.txt`. | [Код](<src/linear_lab_01_v25_(advanced).py>) · [Отчёт DOCX](<docs/reports/lab_01_v25_advanced_report.docx>) · [Блок-схема](<diagrams/lab_01_v25_advanced.drawio>) · [Изображение](<diagrams/lab_01_v25_advanced.svg>) |
 
 ## Подготовка окружения
 
@@ -59,7 +59,7 @@ python "src/linear_lab_01_v25_(advanced).py"
 
 ## Пример блок-схемы
 
-![Начальное решение варианта №25](<diagrams/lab_01_v25_noob.png>)
+![Начальное решение варианта №25](<diagrams/lab_01_v25_noob.svg>)
 
 ## Контрольные примеры
 

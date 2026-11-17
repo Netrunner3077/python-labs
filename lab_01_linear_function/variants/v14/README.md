@@ -24,7 +24,7 @@
 
 | Уровень | Ввод и вывод | Файлы |
 | --- | --- | --- |
-| `noob` | Константы или фиксированный список заданы в коде. Результат выводится в консоль. | [Код](<src/linear_lab_01_v14_(noob).py>) · [Отчёт DOCX](<docs/reports/lab_01_v14_noob_report.docx>) · [Блок-схема](<diagrams/lab_01_v14_noob.drawio>) · [Изображение](<diagrams/lab_01_v14_noob.png>) |
+| `noob` | Константы или фиксированный список заданы в коде. Результат выводится в консоль. | [Код](<src/linear_lab_01_v14_(noob).py>) · [Отчёт DOCX](<docs/reports/lab_01_v14_noob_report.docx>) · [Блок-схема](<diagrams/lab_01_v14_noob.drawio>) · [Изображение](<diagrams/lab_01_v14_noob.svg>) |
 | `basic` | Запрашивает x и y с клавиатуры. Выводит значение u в консоль. | [Код](<src/calculate_function_lab_01_v14_(basic).py>) · [Отчёт DOCX](<docs/reports/lab_01_report.docx>) · [Блок-схема](<diagrams/calculate_function_diagram_lab_01.drawio>) · [Изображение](<diagrams/calculate_function_diagram_lab_01.drawio.svg>) |
 | `advanced` | Запрашивает x и y с клавиатуры. Выводит значение u в консоль. | [Код](<src/calculate_function_lab_01_v14_(advanced).py>) · [Отчёт DOCX](<docs/reports/lab_01_report_advanced.docx>) · [Блок-схема](<diagrams/calculate_function_diagram_lab_01_advanced.drawio>) · [Изображение](<diagrams/calculate_function_diagram_lab_01_advanced.svg>) |
 
@@ -57,7 +57,7 @@ python "src/calculate_function_lab_01_v14_(advanced).py"
 
 ## Пример блок-схемы
 
-![Начальное решение варианта №14](<diagrams/lab_01_v14_noob.png>)
+![Начальное решение варианта №14](<diagrams/lab_01_v14_noob.svg>)
 
 ## Контрольные примеры
 

@@ -22,9 +22,9 @@
 
 | Уровень | Ввод и вывод | Файлы |
 | --- | --- | --- |
-| `noob` | Константы или фиксированный список заданы в коде. Результат выводится в консоль. | [Код](<src/linear_lab_01_v27_(noob).py>) · [Отчёт DOCX](<docs/reports/lab_01_v27_noob_report.docx>) · [Блок-схема](<diagrams/lab_01_v27_noob.drawio>) · [Изображение](<diagrams/lab_01_v27_noob.png>) |
-| `basic` | Читает x и y из `input.txt`, записывает результат и целую часть в `result.txt`. | [Код](<src/linear_lab_01_v27_(basic).py>) · [Отчёт DOCX](<docs/reports/lab_01_v27_basic_report.docx>) · [Блок-схема](<diagrams/lab_01_v27_basic.drawio>) · [Изображение](<diagrams/lab_01_v27_basic.png>) |
-| `advanced` | Поддерживает `--input` и `--output`. По умолчанию читает `input.txt`, сохраняет `result.txt`. | [Код](<src/linear_lab_01_v27_(advanced).py>) · [Отчёт DOCX](<docs/reports/lab_01_v27_advanced_report.docx>) · [Блок-схема](<diagrams/lab_01_v27_advanced.drawio>) · [Изображение](<diagrams/lab_01_v27_advanced.png>) |
+| `noob` | Константы или фиксированный список заданы в коде. Результат выводится в консоль. | [Код](<src/linear_lab_01_v27_(noob).py>) · [Отчёт DOCX](<docs/reports/lab_01_v27_noob_report.docx>) · [Блок-схема](<diagrams/lab_01_v27_noob.drawio>) · [Изображение](<diagrams/lab_01_v27_noob.svg>) |
+| `basic` | Читает x и y из `input.txt`, записывает результат и целую часть в `result.txt`. | [Код](<src/linear_lab_01_v27_(basic).py>) · [Отчёт DOCX](<docs/reports/lab_01_v27_basic_report.docx>) · [Блок-схема](<diagrams/lab_01_v27_basic.drawio>) · [Изображение](<diagrams/lab_01_v27_basic.svg>) |
+| `advanced` | Поддерживает `--input` и `--output`. По умолчанию читает `input.txt`, сохраняет `result.txt`. | [Код](<src/linear_lab_01_v27_(advanced).py>) · [Отчёт DOCX](<docs/reports/lab_01_v27_advanced_report.docx>) · [Блок-схема](<diagrams/lab_01_v27_advanced.drawio>) · [Изображение](<diagrams/lab_01_v27_advanced.svg>) |
 
 ## Подготовка окружения
 
@@ -57,7 +57,7 @@ python "src/linear_lab_01_v27_(advanced).py"
 
 ## Пример блок-схемы
 
-![Начальное решение варианта №27](<diagrams/lab_01_v27_noob.png>)
+![Начальное решение варианта №27](<diagrams/lab_01_v27_noob.svg>)
 
 ## Контрольные примеры
 

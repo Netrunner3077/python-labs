@@ -22,9 +22,9 @@ sin(x - 7 * y) ** 2 / (2.5 * (x - pi)) * sin(pi / 4)
 
 | Уровень | Ввод и вывод | Файлы |
 | --- | --- | --- |
-| `noob` | Константы или фиксированный список заданы в коде. Результат выводится в консоль. | [Код](<src/linear_lab_01_v22_(noob).py>) · [Отчёт DOCX](<docs/reports/lab_01_v22_noob_report.docx>) · [Блок-схема](<diagrams/lab_01_v22_noob.drawio>) · [Изображение](<diagrams/lab_01_v22_noob.png>) |
-| `basic` | Читает x и y из `input.txt`, записывает результат и целую часть в `result.txt`. | [Код](<src/linear_lab_01_v22_(basic).py>) · [Отчёт DOCX](<docs/reports/lab_01_v22_basic_report.docx>) · [Блок-схема](<diagrams/lab_01_v22_basic.drawio>) · [Изображение](<diagrams/lab_01_v22_basic.png>) |
-| `advanced` | Поддерживает `--input` и `--output`. По умолчанию читает `input.txt`, сохраняет `result.txt`. | [Код](<src/linear_lab_01_v22_(advanced).py>) · [Отчёт DOCX](<docs/reports/lab_01_v22_advanced_report.docx>) · [Блок-схема](<diagrams/lab_01_v22_advanced.drawio>) · [Изображение](<diagrams/lab_01_v22_advanced.png>) |
+| `noob` | Константы или фиксированный список заданы в коде. Результат выводится в консоль. | [Код](<src/linear_lab_01_v22_(noob).py>) · [Отчёт DOCX](<docs/reports/lab_01_v22_noob_report.docx>) · [Блок-схема](<diagrams/lab_01_v22_noob.drawio>) · [Изображение](<diagrams/lab_01_v22_noob.svg>) |
+| `basic` | Читает x и y из `input.txt`, записывает результат и целую часть в `result.txt`. | [Код](<src/linear_lab_01_v22_(basic).py>) · [Отчёт DOCX](<docs/reports/lab_01_v22_basic_report.docx>) · [Блок-схема](<diagrams/lab_01_v22_basic.drawio>) · [Изображение](<diagrams/lab_01_v22_basic.svg>) |
+| `advanced` | Поддерживает `--input` и `--output`. По умолчанию читает `input.txt`, сохраняет `result.txt`. | [Код](<src/linear_lab_01_v22_(advanced).py>) · [Отчёт DOCX](<docs/reports/lab_01_v22_advanced_report.docx>) · [Блок-схема](<diagrams/lab_01_v22_advanced.drawio>) · [Изображение](<diagrams/lab_01_v22_advanced.svg>) |
 
 ## Подготовка окружения
 
@@ -57,7 +57,7 @@ python "src/linear_lab_01_v22_(advanced).py"
 
 ## Пример блок-схемы
 
-![Начальное решение варианта №22](<diagrams/lab_01_v22_noob.png>)
+![Начальное решение варианта №22](<diagrams/lab_01_v22_noob.svg>)
 
 ## Контрольные примеры
 

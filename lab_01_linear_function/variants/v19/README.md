@@ -22,9 +22,9 @@ pi / 3 - sqrt(3 * x) + (x ** 2 + y) / (0.55 * tan(abs(x + y)))
 
 | Уровень | Ввод и вывод | Файлы |
 | --- | --- | --- |
-| `noob` | Константы или фиксированный список заданы в коде. Результат выводится в консоль. | [Код](<src/linear_lab_01_v19_(noob).py>) · [Отчёт DOCX](<docs/reports/lab_01_v19_noob_report.docx>) · [Блок-схема](<diagrams/lab_01_v19_noob.drawio>) · [Изображение](<diagrams/lab_01_v19_noob.png>) |
-| `basic` | Читает x и y из `input.txt`, записывает результат и целую часть в `result.txt`. | [Код](<src/linear_lab_01_v19_(basic).py>) · [Отчёт DOCX](<docs/reports/lab_01_v19_basic_report.docx>) · [Блок-схема](<diagrams/lab_01_v19_basic.drawio>) · [Изображение](<diagrams/lab_01_v19_basic.png>) |
-| `advanced` | Поддерживает `--input` и `--output`. По умолчанию читает `input.txt`, сохраняет `result.txt`. | [Код](<src/linear_lab_01_v19_(advanced).py>) · [Отчёт DOCX](<docs/reports/lab_01_v19_advanced_report.docx>) · [Блок-схема](<diagrams/lab_01_v19_advanced.drawio>) · [Изображение](<diagrams/lab_01_v19_advanced.png>) |
+| `noob` | Константы или фиксированный список заданы в коде. Результат выводится в консоль. | [Код](<src/linear_lab_01_v19_(noob).py>) · [Отчёт DOCX](<docs/reports/lab_01_v19_noob_report.docx>) · [Блок-схема](<diagrams/lab_01_v19_noob.drawio>) · [Изображение](<diagrams/lab_01_v19_noob.svg>) |
+| `basic` | Читает x и y из `input.txt`, записывает результат и целую часть в `result.txt`. | [Код](<src/linear_lab_01_v19_(basic).py>) · [Отчёт DOCX](<docs/reports/lab_01_v19_basic_report.docx>) · [Блок-схема](<diagrams/lab_01_v19_basic.drawio>) · [Изображение](<diagrams/lab_01_v19_basic.svg>) |
+| `advanced` | Поддерживает `--input` и `--output`. По умолчанию читает `input.txt`, сохраняет `result.txt`. | [Код](<src/linear_lab_01_v19_(advanced).py>) · [Отчёт DOCX](<docs/reports/lab_01_v19_advanced_report.docx>) · [Блок-схема](<diagrams/lab_01_v19_advanced.drawio>) · [Изображение](<diagrams/lab_01_v19_advanced.svg>) |
 
 ## Подготовка окружения
 
@@ -57,7 +57,7 @@ python "src/linear_lab_01_v19_(advanced).py"
 
 ## Пример блок-схемы
 
-![Начальное решение варианта №19](<diagrams/lab_01_v19_noob.png>)
+![Начальное решение варианта №19](<diagrams/lab_01_v19_noob.svg>)
 
 ## Контрольные примеры
 
