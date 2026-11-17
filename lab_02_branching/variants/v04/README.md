@@ -20,9 +20,9 @@
 
 | Уровень | Ввод и вывод | Файлы |
 | --- | --- | --- |
-| `noob` | Константы или фиксированный список заданы в коде. Результат выводится в консоль. | [Код](<src/branching_lab_02_v04_(noob).py>) · [Отчёт DOCX](<docs/reports/lab_02_v04_noob_report.docx>) · [Блок-схема](<diagrams/lab_02_v04_noob.drawio>) · [Изображение](<diagrams/lab_02_v04_noob.png>) |
-| `basic` | Запрашивает числа и пишет исходные данные и результат в `result.txt`. | [Код](<src/branching_lab_02_v04_(basic).py>) · [Отчёт DOCX](<docs/reports/lab_02_v04_basic_report.docx>) · [Блок-схема](<diagrams/lab_02_v04_basic.drawio>) · [Изображение](<diagrams/lab_02_v04_basic.png>) |
-| `advanced` | Запрашивает числа с повтором при ошибке, сохраняет исходные данные и результат в `result.txt`. | [Код](<src/branching_lab_02_v04_(advanced).py>) · [Отчёт DOCX](<docs/reports/lab_02_v04_advanced_report.docx>) · [Блок-схема](<diagrams/lab_02_v04_advanced.drawio>) · [Изображение](<diagrams/lab_02_v04_advanced.png>) |
+| `noob` | Константы или фиксированный список заданы в коде. Результат выводится в консоль. | [Код](<src/branching_lab_02_v04_(noob).py>) · [Отчёт DOCX](<docs/reports/lab_02_v04_noob_report.docx>) · [Блок-схема](<diagrams/lab_02_v04_noob.drawio>) · [Изображение](<diagrams/lab_02_v04_noob.svg>) |
+| `basic` | Запрашивает числа и пишет исходные данные и результат в `result.txt`. | [Код](<src/branching_lab_02_v04_(basic).py>) · [Отчёт DOCX](<docs/reports/lab_02_v04_basic_report.docx>) · [Блок-схема](<diagrams/lab_02_v04_basic.drawio>) · [Изображение](<diagrams/lab_02_v04_basic.svg>) |
+| `advanced` | Запрашивает числа с повтором при ошибке, сохраняет исходные данные и результат в `result.txt`. | [Код](<src/branching_lab_02_v04_(advanced).py>) · [Отчёт DOCX](<docs/reports/lab_02_v04_advanced_report.docx>) · [Блок-схема](<diagrams/lab_02_v04_advanced.drawio>) · [Изображение](<diagrams/lab_02_v04_advanced.svg>) |
 
 ## Подготовка окружения
 
@@ -53,7 +53,7 @@ python "src/branching_lab_02_v04_(advanced).py"
 
 ## Пример блок-схемы
 
-![Начальное решение варианта №4](<diagrams/lab_02_v04_noob.png>)
+![Начальное решение варианта №4](<diagrams/lab_02_v04_noob.svg>)
 
 ## Контрольные примеры
 

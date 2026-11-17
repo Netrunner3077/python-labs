@@ -20,9 +20,9 @@
 
 | Уровень | Ввод и вывод | Файлы |
 | --- | --- | --- |
-| `noob` | Константы или фиксированный список заданы в коде. Результат выводится в консоль. | [Код](<src/branching_lab_02_v13_(noob).py>) · [Отчёт DOCX](<docs/reports/lab_02_v13_noob_report.docx>) · [Блок-схема](<diagrams/lab_02_v13_noob.drawio>) · [Изображение](<diagrams/lab_02_v13_noob.png>) |
-| `basic` | Запрашивает числа и пишет исходные данные и результат в `result.txt`. | [Код](<src/branching_lab_02_v13_(basic).py>) · [Отчёт DOCX](<docs/reports/lab_02_v13_basic_report.docx>) · [Блок-схема](<diagrams/lab_02_v13_basic.drawio>) · [Изображение](<diagrams/lab_02_v13_basic.png>) |
-| `advanced` | Запрашивает числа с повтором при ошибке, сохраняет исходные данные и результат в `result.txt`. | [Код](<src/branching_lab_02_v13_(advanced).py>) · [Отчёт DOCX](<docs/reports/lab_02_v13_advanced_report.docx>) · [Блок-схема](<diagrams/lab_02_v13_advanced.drawio>) · [Изображение](<diagrams/lab_02_v13_advanced.png>) |
+| `noob` | Константы или фиксированный список заданы в коде. Результат выводится в консоль. | [Код](<src/branching_lab_02_v13_(noob).py>) · [Отчёт DOCX](<docs/reports/lab_02_v13_noob_report.docx>) · [Блок-схема](<diagrams/lab_02_v13_noob.drawio>) · [Изображение](<diagrams/lab_02_v13_noob.svg>) |
+| `basic` | Запрашивает числа и пишет исходные данные и результат в `result.txt`. | [Код](<src/branching_lab_02_v13_(basic).py>) · [Отчёт DOCX](<docs/reports/lab_02_v13_basic_report.docx>) · [Блок-схема](<diagrams/lab_02_v13_basic.drawio>) · [Изображение](<diagrams/lab_02_v13_basic.svg>) |
+| `advanced` | Запрашивает числа с повтором при ошибке, сохраняет исходные данные и результат в `result.txt`. | [Код](<src/branching_lab_02_v13_(advanced).py>) · [Отчёт DOCX](<docs/reports/lab_02_v13_advanced_report.docx>) · [Блок-схема](<diagrams/lab_02_v13_advanced.drawio>) · [Изображение](<diagrams/lab_02_v13_advanced.svg>) |
 
 ## Подготовка окружения
 
@@ -53,7 +53,7 @@ python "src/branching_lab_02_v13_(advanced).py"
 
 ## Пример блок-схемы
 
-![Начальное решение варианта №13](<diagrams/lab_02_v13_noob.png>)
+![Начальное решение варианта №13](<diagrams/lab_02_v13_noob.svg>)
 
 ## Контрольные примеры
 

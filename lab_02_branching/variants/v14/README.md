@@ -20,7 +20,7 @@
 
 | Уровень | Ввод и вывод | Файлы |
 | --- | --- | --- |
-| `noob` | Константы или фиксированный список заданы в коде. Результат выводится в консоль. | [Код](<src/branching_lab_02_v14_(noob).py>) · [Отчёт DOCX](<docs/reports/lab_02_v14_noob_report.docx>) · [Блок-схема](<diagrams/lab_02_v14_noob.drawio>) · [Изображение](<diagrams/lab_02_v14_noob.png>) |
+| `noob` | Константы или фиксированный список заданы в коде. Результат выводится в консоль. | [Код](<src/branching_lab_02_v14_(noob).py>) · [Отчёт DOCX](<docs/reports/lab_02_v14_noob_report.docx>) · [Блок-схема](<diagrams/lab_02_v14_noob.drawio>) · [Изображение](<diagrams/lab_02_v14_noob.svg>) |
 | `basic` | Запрашивает числа и пишет исходные данные и результат в `result.txt`. | [Код](<src/branching_lab_02_v14_(basic).py>) · [Отчёт DOCX](<docs/reports/lab_02_report.docx>) · [Блок-схема](<diagrams/branching_block_scheme_lab_02_v14.drawio>) · [Изображение](<diagrams/branching_block_scheme_lab_02_v14.svg>) |
 | `advanced` | Запрашивает числа с повтором при ошибке, сохраняет исходные данные и результат в `result.txt`. | [Код](<src/branching_lab_02_v14_(advanced).py>) · [Отчёт DOCX](<docs/reports/lab_02_report_advanced.docx>) · [Блок-схема](<diagrams/branching_block_scheme_lab_02_v14_advanced.drawio>) · [Изображение](<diagrams/branching_block_scheme_lab_02_v14_advanced.svg>) |
 
@@ -53,7 +53,7 @@ python "src/branching_lab_02_v14_(advanced).py"
 
 ## Пример блок-схемы
 
-![Начальное решение варианта №14](<diagrams/lab_02_v14_noob.png>)
+![Начальное решение варианта №14](<diagrams/lab_02_v14_noob.svg>)
 
 ## Контрольные примеры
 

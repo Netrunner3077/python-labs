@@ -47,7 +47,7 @@ python -m pytest "lab_02_branching/variants"
 
 ## Пример блок-схемы
 
-![Начальное решение варианта №1](variants/v01/diagrams/lab_02_v01_noob.png)
+![Начальное решение варианта №1](variants/v01/diagrams/lab_02_v01_noob.svg)
 
 ## Контроль и особенности
 
