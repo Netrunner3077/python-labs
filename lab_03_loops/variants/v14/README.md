@@ -22,7 +22,7 @@
 
 | Уровень | Ввод и вывод | Файлы |
 | --- | --- | --- |
-| `noob` | Константы или фиксированный список заданы в коде. Результат выводится в консоль. | [Код](<src/tabulation_lab_03_v14_(noob).py>) · [Отчёт DOCX](<docs/reports/lab_03_v14_noob_report.docx>) · [Блок-схема](<diagrams/lab_03_v14_noob.drawio>) · [Изображение](<diagrams/lab_03_v14_noob.png>) |
+| `noob` | Константы или фиксированный список заданы в коде. Результат выводится в консоль. | [Код](<src/tabulation_lab_03_v14_(noob).py>) · [Отчёт DOCX](<docs/reports/lab_03_v14_noob_report.docx>) · [Блок-схема](<diagrams/lab_03_v14_noob.drawio>) · [Изображение](<diagrams/lab_03_v14_noob.svg>) |
 | `basic` | Запрашивает начало, конец и шаг. Записывает таблицу в `results/result_lab_3_v14.txt`. | [Код](<src/tabulation_sum_lab_03_v14_(basic).py>) · [Отчёт DOCX](<docs/reports/lab_03_report.docx>) · [Блок-схема](<diagrams/tabulation_sum_block_sheme_lab_03_v14.drawio>) · [Изображение](<diagrams/tabulation_sum_block_sheme_lab_03_v14.drawio.svg>) |
 | `advanced` | Запрашивает начало, конец и шаг. Записывает таблицу в `results/result_lab_3_v14.txt`. | [Код](<src/tabulation_sum_lab_03_v14_(advanced).py>) · [Отчёт DOCX](<docs/reports/lab_03_report_advanced.docx>) · [Блок-схема](<diagrams/tabulation_sum_block_sheme_lab_03_v14_advanced.drawio>) · [Изображение](<diagrams/tabulation_sum_block_sheme_lab_03_v14_advanced.svg>) |
 
@@ -55,7 +55,7 @@ python "src/tabulation_sum_lab_03_v14_(advanced).py"
 
 ## Пример блок-схемы
 
-![Начальное решение варианта №14](<diagrams/lab_03_v14_noob.png>)
+![Начальное решение варианта №14](<diagrams/lab_03_v14_noob.svg>)
 
 ## Контрольные примеры
 

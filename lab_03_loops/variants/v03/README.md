@@ -24,9 +24,9 @@
 
 | Уровень | Ввод и вывод | Файлы |
 | --- | --- | --- |
-| `noob` | Константы или фиксированный список заданы в коде. Результат выводится в консоль. | [Код](<src/tabulation_lab_03_v03_(noob).py>) · [Отчёт DOCX](<docs/reports/lab_03_v03_noob_report.docx>) · [Блок-схема](<diagrams/lab_03_v03_noob.drawio>) · [Изображение](<diagrams/lab_03_v03_noob.png>) |
-| `basic` | Использует параметры варианта и сохраняет таблицу в `result.txt`. | [Код](<src/tabulation_lab_03_v03_(basic).py>) · [Отчёт DOCX](<docs/reports/lab_03_v03_basic_report.docx>) · [Блок-схема](<diagrams/lab_03_v03_basic.drawio>) · [Изображение](<diagrams/lab_03_v03_basic.png>) |
-| `advanced` | Использует параметры варианта по умолчанию. Поддерживает `--start`, `--end`, `--step` и `--output`. | [Код](<src/tabulation_lab_03_v03_(advanced).py>) · [Отчёт DOCX](<docs/reports/lab_03_v03_advanced_report.docx>) · [Блок-схема](<diagrams/lab_03_v03_advanced.drawio>) · [Изображение](<diagrams/lab_03_v03_advanced.png>) |
+| `noob` | Константы или фиксированный список заданы в коде. Результат выводится в консоль. | [Код](<src/tabulation_lab_03_v03_(noob).py>) · [Отчёт DOCX](<docs/reports/lab_03_v03_noob_report.docx>) · [Блок-схема](<diagrams/lab_03_v03_noob.drawio>) · [Изображение](<diagrams/lab_03_v03_noob.svg>) |
+| `basic` | Использует параметры варианта и сохраняет таблицу в `result.txt`. | [Код](<src/tabulation_lab_03_v03_(basic).py>) · [Отчёт DOCX](<docs/reports/lab_03_v03_basic_report.docx>) · [Блок-схема](<diagrams/lab_03_v03_basic.drawio>) · [Изображение](<diagrams/lab_03_v03_basic.svg>) |
+| `advanced` | Использует параметры варианта по умолчанию. Поддерживает `--start`, `--end`, `--step` и `--output`. | [Код](<src/tabulation_lab_03_v03_(advanced).py>) · [Отчёт DOCX](<docs/reports/lab_03_v03_advanced_report.docx>) · [Блок-схема](<diagrams/lab_03_v03_advanced.drawio>) · [Изображение](<diagrams/lab_03_v03_advanced.svg>) |
 
 ## Подготовка окружения
 
@@ -57,7 +57,7 @@ python "src/tabulation_lab_03_v03_(advanced).py"
 
 ## Пример блок-схемы
 
-![Начальное решение варианта №3](<diagrams/lab_03_v03_noob.png>)
+![Начальное решение варианта №3](<diagrams/lab_03_v03_noob.svg>)
 
 ## Контрольные примеры
 
