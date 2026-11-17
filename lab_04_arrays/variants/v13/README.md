@@ -22,9 +22,9 @@
 
 | Уровень | Ввод и вывод | Файлы |
 | --- | --- | --- |
-| `noob` | Константы или фиксированный список заданы в коде. Результат выводится в консоль. | [Код](<src/array_lab_04_v13_(noob).py>) · [Отчёт DOCX](<docs/reports/lab_04_v13_noob_report.docx>) · [Блок-схема](<diagrams/lab_04_v13_noob.drawio>) · [Изображение](<diagrams/lab_04_v13_noob.png>) |
-| `basic` | Генерирует значения с фиксированным seed варианта и записывает `result.txt`. | [Код](<src/array_lab_04_v13_(basic).py>) · [Отчёт DOCX](<docs/reports/lab_04_v13_basic_report.docx>) · [Блок-схема](<diagrams/lab_04_v13_basic.drawio>) · [Изображение](<diagrams/lab_04_v13_basic.png>) |
-| `advanced` | Генерирует значения с seed варианта. Поддерживает `--seed` и `--output`, по умолчанию сохраняет `result.txt`. | [Код](<src/array_lab_04_v13_(advanced).py>) · [Отчёт DOCX](<docs/reports/lab_04_v13_advanced_report.docx>) · [Блок-схема](<diagrams/lab_04_v13_advanced.drawio>) · [Изображение](<diagrams/lab_04_v13_advanced.png>) |
+| `noob` | Константы или фиксированный список заданы в коде. Результат выводится в консоль. | [Код](<src/array_lab_04_v13_(noob).py>) · [Отчёт DOCX](<docs/reports/lab_04_v13_noob_report.docx>) · [Блок-схема](<diagrams/lab_04_v13_noob.drawio>) · [Изображение](<diagrams/lab_04_v13_noob.svg>) |
+| `basic` | Генерирует значения с фиксированным seed варианта и записывает `result.txt`. | [Код](<src/array_lab_04_v13_(basic).py>) · [Отчёт DOCX](<docs/reports/lab_04_v13_basic_report.docx>) · [Блок-схема](<diagrams/lab_04_v13_basic.drawio>) · [Изображение](<diagrams/lab_04_v13_basic.svg>) |
+| `advanced` | Генерирует значения с seed варианта. Поддерживает `--seed` и `--output`, по умолчанию сохраняет `result.txt`. | [Код](<src/array_lab_04_v13_(advanced).py>) · [Отчёт DOCX](<docs/reports/lab_04_v13_advanced_report.docx>) · [Блок-схема](<diagrams/lab_04_v13_advanced.drawio>) · [Изображение](<diagrams/lab_04_v13_advanced.svg>) |
 
 ## Подготовка окружения
 
@@ -55,7 +55,7 @@ python "src/array_lab_04_v13_(advanced).py"
 
 ## Пример блок-схемы
 
-![Начальное решение варианта №13](<diagrams/lab_04_v13_noob.png>)
+![Начальное решение варианта №13](<diagrams/lab_04_v13_noob.svg>)
 
 ## Контрольные примеры
 

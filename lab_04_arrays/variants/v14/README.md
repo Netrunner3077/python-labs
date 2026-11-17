@@ -22,7 +22,7 @@
 
 | Уровень | Ввод и вывод | Файлы |
 | --- | --- | --- |
-| `noob` | Константы или фиксированный список заданы в коде. Результат выводится в консоль. | [Код](<src/array_lab_04_v14_(noob).py>) · [Отчёт DOCX](<docs/reports/lab_04_v14_noob_report.docx>) · [Блок-схема](<diagrams/lab_04_v14_noob.drawio>) · [Изображение](<diagrams/lab_04_v14_noob.png>) |
+| `noob` | Константы или фиксированный список заданы в коде. Результат выводится в консоль. | [Код](<src/array_lab_04_v14_(noob).py>) · [Отчёт DOCX](<docs/reports/lab_04_v14_noob_report.docx>) · [Блок-схема](<diagrams/lab_04_v14_noob.drawio>) · [Изображение](<diagrams/lab_04_v14_noob.svg>) |
 | `basic` | Фиксирует seed 14, печатает матрицу и номера в консоль. | [Код](<src/array_positive_indices_lab_04_v14_(basic).py>) · [Отчёт DOCX](<docs/reports/lab_04_report.docx>) · [Блок-схема](<diagrams/array_positive_indices_lab_04_v14.drawio>) · [Изображение](<diagrams/array_positive_indices_lab_04_v14.drawio.svg>) |
 | `advanced` | Запрашивает пять параметров. Enter оставляет значение по умолчанию. Пишет `result_lab_4_v14.txt`. | [Код](<src/array_positive_indices_lab_04_v14_(advanced).py>) · [Отчёт DOCX](<docs/reports/lab_04_report_advanced.docx>) · [Блок-схема](<diagrams/array_positive_indices_lab_04_v14_advanced.drawio>) · [Изображение](<diagrams/array_positive_indices_lab_04_v14_advanced.svg>) |
 
@@ -55,7 +55,7 @@ python "src/array_positive_indices_lab_04_v14_(advanced).py"
 
 ## Пример блок-схемы
 
-![Начальное решение варианта №14](<diagrams/lab_04_v14_noob.png>)
+![Начальное решение варианта №14](<diagrams/lab_04_v14_noob.svg>)
 
 ## Контрольные примеры
 

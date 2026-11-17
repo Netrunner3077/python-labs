@@ -22,9 +22,9 @@
 
 | Уровень | Ввод и вывод | Файлы |
 | --- | --- | --- |
-| `noob` | Константы или фиксированный список заданы в коде. Результат выводится в консоль. | [Код](<src/array_count_sum_lab_04_v06_(noob).py>) · [Отчёт DOCX](<docs/reports/lab_04_v06_report.docx>) · [Блок-схема](<diagrams/lab_04_v06.drawio>) · [Изображение](<diagrams/lab_04_v06.png>) |
-| `basic` | Генерирует значения с фиксированным seed варианта и записывает `result.txt`. | [Код](<src/array_lab_04_v06_(basic).py>) · [Отчёт DOCX](<docs/reports/lab_04_v06_basic_report.docx>) · [Блок-схема](<diagrams/lab_04_v06_basic.drawio>) · [Изображение](<diagrams/lab_04_v06_basic.png>) |
-| `advanced` | Генерирует значения с seed варианта. Поддерживает `--seed` и `--output`, по умолчанию сохраняет `result.txt`. | [Код](<src/array_lab_04_v06_(advanced).py>) · [Отчёт DOCX](<docs/reports/lab_04_v06_advanced_report.docx>) · [Блок-схема](<diagrams/lab_04_v06_advanced.drawio>) · [Изображение](<diagrams/lab_04_v06_advanced.png>) |
+| `noob` | Константы или фиксированный список заданы в коде. Результат выводится в консоль. | [Код](<src/array_count_sum_lab_04_v06_(noob).py>) · [Отчёт DOCX](<docs/reports/lab_04_v06_report.docx>) · [Блок-схема](<diagrams/lab_04_v06.drawio>) · [Изображение](<diagrams/lab_04_v06.svg>) |
+| `basic` | Генерирует значения с фиксированным seed варианта и записывает `result.txt`. | [Код](<src/array_lab_04_v06_(basic).py>) · [Отчёт DOCX](<docs/reports/lab_04_v06_basic_report.docx>) · [Блок-схема](<diagrams/lab_04_v06_basic.drawio>) · [Изображение](<diagrams/lab_04_v06_basic.svg>) |
+| `advanced` | Генерирует значения с seed варианта. Поддерживает `--seed` и `--output`, по умолчанию сохраняет `result.txt`. | [Код](<src/array_lab_04_v06_(advanced).py>) · [Отчёт DOCX](<docs/reports/lab_04_v06_advanced_report.docx>) · [Блок-схема](<diagrams/lab_04_v06_advanced.drawio>) · [Изображение](<diagrams/lab_04_v06_advanced.svg>) |
 
 ## Подготовка окружения
 
@@ -55,7 +55,7 @@ python "src/array_lab_04_v06_(advanced).py"
 
 ## Пример блок-схемы
 
-![Начальное решение варианта №6](<diagrams/lab_04_v06.png>)
+![Начальное решение варианта №6](<diagrams/lab_04_v06.svg>)
 
 ## Контрольные примеры
 
